@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* reset */
+* {margin:0; padding:0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -webkit-text-size:adjust:100%;}/*text-size-adjus : 폰트 크기를 조절, 모든 디바이스에서 동일하게 보여주게 하는 방식*/
+html {margin:0; padding:0; -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none;}
+body {height:100%; line-height:1; font-family: arial, sans-serif; *zoom:1; }
+label {/*vertical-align:middle*/}
+address,em {font-style:normal}
+strong,b,th {font-weight:bold}
+fieldset,img {border:0; -webkit-border:0; -moz-border:0; -ms-border:0; -o-border:0; vertical-align:middle}
+caption,legend {width:1px; text-align:left; font-size:0; line-height:0; text-indent:-999em}
+ul,ol,dl,dt,dd,li {list-style:none}
+h1,h2,h3,h4,h5,h6 {font-weight:bold; font-size:100%}
+input,textarea/*,select*/ {border:0; color:#666; vertical-align:middle; -webkit-border-radius:0}
+input[type=number] {-moz-appearance: textfield;}/*Chrome*/
+::-webkit-inner-spin-button { -webkit-appearance: none;}
+::-webkit-outer-spin-button { -webkit-appearance: none;}
+input[type='checkbox']{-webkit-appearance:checkbox} /*Safari*/
+input[type='radio']{-webkit-appearance:radio} /*Safari*/
+img,a,span,time,mark,audio,video,article,aside,address,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {display:block;}
+div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,iframe,fieldset,input,table,tr,th,td,button,textarea,select, thead, tbody, tfoot, pre, option {margin:0; padding:0; }
+a {display:block; color:#000; text-decoration:none}
+iframe{border: 0;}
+a:hover, a:focus, a:active, a:visited{}
+table {border-spacing:0}
+table th {letter-spacing:0px; border-collapse:collapse; font-weight: 500;}
+table td {border-collapse:collapse}
+button {border:none; background:none; cursor:pointer; }
+/*button:focus, button:active{background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;}*/
+/* IR */
+.blind { position:absolute; width:1px; font-size:0; line-height:0; text-align:left; text-indent:-999em; left:-9999px;}
+
+/* 한줄 줄임 */
+.strCut { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; }
+
+/*인용 문장*/
+blockquote{}
+
